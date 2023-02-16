@@ -1,0 +1,117 @@
+* {
+	font-family: 'Roboto', sans-serif;
+	color: white;
+}
+
+h1, h2 {
+	font-family: 'Montserrat', sans-serif;
+}
+
+#landing {
+	margin-top: 15vh;
+	height: 95vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-image: url("./images/reflt.jpeg");
+	background-position-y: 100rem;
+}
+
+#profile {
+	height: 80%;
+}
+
+.img1 {
+	height: 340px;
+	width: 320px;
+	border-radius: 250px;
+	margin-left: 150px;
+}
+
+h3 {
+	font-size: 30px;
+}
+
+
+h2 {
+	color: #007bff;
+}
+
+h5 {
+	margin-bottom: 6vh;
+}
+
+h6 {
+	font-size: 12px
+}
+
+p {
+	font-size: 18px
+}
+
+#AboutUs {
+	background-color: #450814
+}
+
+#mainLink {
+	font-size: 40px;
+	color: white;
+	margin-bottom: 10vh
+}
+
+#K2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}
+
+#textK2 {
+  font-size: 16px;
+}
+#gallery {
+	padding: 10vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-image: url(./images/bg.png);
+}
+
+.img-cover {
+	height: 280px;
+	width: 300px;
+}
+
+ul{
+	list-style: none;
+	padding: 0;
+}
+
+.tools {
+	border: 3px solid;
+	width: 90%;
+	margin: 1px;
+	padding: 30px;
+	color: white;
+	background-color: rgba(59, 0, 0, 0.8);
+}
+
+#cntctUs {
+	font-size: 30px;
+	margin-bottom: 5vh
+}
+
+#ContactUs {
+	background-image: url("./images/clth.jpeg");
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+.icons {
+	height: 40px;
+	width: 40px;
+}
